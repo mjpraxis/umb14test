@@ -1,0 +1,15 @@
+{
+    "$schema": "../../umb14test.Website/umbraco-package-schema.json",
+    "id": "umb14test",
+    "name": "umb14test",
+    "allowPackageTelemetry": true,
+    "version": "1.0.0",
+    "extensions": [
+        {
+          "name": "umb14test EntryPoint",
+          "alias": "umb14test.entrypoint",
+          "type": "backofficeEntryPoint",
+          "js": "/App_Plugins/umb14test/umb14test.js"
+        }
+      ]
+}
